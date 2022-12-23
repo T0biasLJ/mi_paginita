@@ -25,6 +25,10 @@ a img{
 
 }
 
+.header-logo a{
+    margin-right: 10px;
+}
+
 h1{
     color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
@@ -34,7 +38,7 @@ h1{
 /*APARTADO DERECHO DEL ENCABEZADO*/
 
 
-a{
+nav a{
     text-decoration: none;
     color: #000;
     margin-right: 20px;
@@ -159,13 +163,16 @@ hr{
 
     .imagen-usuario{
         margin: 10px auto;
+        border: #ca2525 1px solid;
+        overflow: none;
+        
     }
 
     .imagen-usuario img{
         height: 100%;
         width: 100%;
-        object-fit: cover;
-        object-position: 0 0;        
+        object-position: 0 0;   
+        object-fit: cover;   
     }
 
     hr{
