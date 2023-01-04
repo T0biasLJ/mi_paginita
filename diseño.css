@@ -33,3 +33,37 @@ header{
 .enlaces li:hover {
     background: rgb(223, 223, 223);
 }
+
+
+
+
+
+/* Edicion del main */
+
+
+
+.informacion-principal{
+    margin: 20px;
+    padding: 10px;
+    background: rgba(208, 208, 208, 0.203);
+    
+
+}
+
+.imagen-mia{
+    text-align: center;
+    padding-top: 20px;
+    height: 160px;
+    margin-bottom: 20px;
+}
+
+.informacion-principal img{
+    width: 160px;
+    border-radius: 50%;
+}
+
+
+.mi-informacion{
+    margin: 10px;
+    text-align: center;
+}
