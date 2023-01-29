@@ -88,3 +88,24 @@ header{
     background: #3e6d8dbb;
     transition: 0.4s;
 }
+
+
+.container-objetivos{
+    padding: 40px;
+}
+
+.item-objetivos{
+    margin-top: 30px;
+}
+
+
+@media only screen and (min-width: 700px) {
+    .informacion-principal{
+        display: flex;
+        align-items: center;
+    }
+
+    .imagen-mia{
+        flex-direction: row-reverse;
+    }
+  }
